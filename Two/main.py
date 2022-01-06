@@ -1,0 +1,5 @@
+bill = int(input('Счет:'))
+tip = int(input('Процент для чаевых:'))
+people_number = int(input('Количество людей:'))
+total = bill + (bill / 100 * tip)
+print(f'Каждый человек должен заплатить {round(total/people_number)}')
